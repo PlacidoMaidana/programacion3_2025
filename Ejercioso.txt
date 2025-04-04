@@ -1,5 +1,13 @@
 
 
-
+Ejercicio 1: Crear una Interfaz Simple
+Descripción: Define una interfaz Notificador con un método enviar($mensaje). Crea dos clases que implementen esta interfaz: EmailNotificador y SMSNotificador.
 Ejercicio 2: Constructor con Inyección de Dependencias
 Descripción: Crea una clase UsuarioServicio que reciba un objeto de tipo Notificador en su constructor para enviar mensajes
+
+Ejercicio 3: Cambiar la Implementación del Notificador
+Descripción: Modifica el ejemplo anterior para usar SMSNotificador sin cambiar el código de UsuarioServicio.
+
+
+Ejercicio 4: Dependencias a través de Métodos
+Descripción: Modifica UsuarioServicio para que el notificador sea inyectado mediante un método en vez de en el constructor.
